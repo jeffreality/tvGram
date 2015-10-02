@@ -1,0 +1,352 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0019AF811BB35FA70085AC1D /* InstagramDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0019AF801BB35FA70085AC1D /* InstagramDownloader.swift */; };
+		0019AF861BB36A7F0085AC1D /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0019AF851BB36A7F0085AC1D /* SwiftyJSON.swift */; };
+		0020692F1BB2F46B0052970A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0020692E1BB2F46B0052970A /* AppDelegate.swift */; };
+		002069311BB2F46B0052970A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002069301BB2F46B0052970A /* ViewController.swift */; };
+		002069341BB2F46B0052970A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 002069321BB2F46B0052970A /* Main.storyboard */; };
+		002069361BB2F46B0052970A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 002069351BB2F46B0052970A /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0019AF801BB35FA70085AC1D /* InstagramDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramDownloader.swift; sourceTree = "<group>"; };
+		0019AF851BB36A7F0085AC1D /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		0020692B1BB2F46B0052970A /* TVgram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVgram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0020692E1BB2F46B0052970A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		002069301BB2F46B0052970A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		002069331BB2F46B0052970A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		002069351BB2F46B0052970A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		002069371BB2F46B0052970A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		002069281BB2F46B0052970A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0019AF831BB36A7F0085AC1D /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				0019AF841BB36A7F0085AC1D /* SwiftyJSON */,
+			);
+			path = Libraries;
+			sourceTree = SOURCE_ROOT;
+		};
+		0019AF841BB36A7F0085AC1D /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				0019AF851BB36A7F0085AC1D /* SwiftyJSON.swift */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		0019AF871BB36A920085AC1D /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				0020692E1BB2F46B0052970A /* AppDelegate.swift */,
+				002069371BB2F46B0052970A /* Info.plist */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		0019AF881BB36A9A0085AC1D /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0019AF891BB36AA00085AC1D /* ViewControllers */,
+				0019AF8B1BB36AC70085AC1D /* Storyboards */,
+				002069351BB2F46B0052970A /* Assets.xcassets */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		0019AF891BB36AA00085AC1D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				002069301BB2F46B0052970A /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0019AF8A1BB36AAF0085AC1D /* Data Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0019AF801BB35FA70085AC1D /* InstagramDownloader.swift */,
+			);
+			name = "Data Controllers";
+			sourceTree = "<group>";
+		};
+		0019AF8B1BB36AC70085AC1D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				002069321BB2F46B0052970A /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		002069221BB2F46B0052970A = {
+			isa = PBXGroup;
+			children = (
+				0020692D1BB2F46B0052970A /* TVgram */,
+				0020692C1BB2F46B0052970A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0020692C1BB2F46B0052970A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0020692B1BB2F46B0052970A /* TVgram.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0020692D1BB2F46B0052970A /* TVgram */ = {
+			isa = PBXGroup;
+			children = (
+				0019AF871BB36A920085AC1D /* Application */,
+				0019AF8A1BB36AAF0085AC1D /* Data Controllers */,
+				0019AF881BB36A9A0085AC1D /* UI */,
+				0019AF831BB36A7F0085AC1D /* Libraries */,
+			);
+			path = TVgram;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0020692A1BB2F46B0052970A /* TVgram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0020693A1BB2F46B0052970A /* Build configuration list for PBXNativeTarget "TVgram" */;
+			buildPhases = (
+				002069271BB2F46B0052970A /* Sources */,
+				002069281BB2F46B0052970A /* Frameworks */,
+				002069291BB2F46B0052970A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TVgram;
+			productName = TVgram;
+			productReference = 0020692B1BB2F46B0052970A /* TVgram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		002069231BB2F46B0052970A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Jeffrey Berthiaume";
+				TargetAttributes = {
+					0020692A1BB2F46B0052970A = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = T4VXPLC8GZ;
+					};
+				};
+			};
+			buildConfigurationList = 002069261BB2F46B0052970A /* Build configuration list for PBXProject "TVgram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 002069221BB2F46B0052970A;
+			productRefGroup = 0020692C1BB2F46B0052970A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0020692A1BB2F46B0052970A /* TVgram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		002069291BB2F46B0052970A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002069361BB2F46B0052970A /* Assets.xcassets in Resources */,
+				002069341BB2F46B0052970A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		002069271BB2F46B0052970A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002069311BB2F46B0052970A /* ViewController.swift in Sources */,
+				0020692F1BB2F46B0052970A /* AppDelegate.swift in Sources */,
+				0019AF811BB35FA70085AC1D /* InstagramDownloader.swift in Sources */,
+				0019AF861BB36A7F0085AC1D /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		002069321BB2F46B0052970A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				002069331BB2F46B0052970A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		002069381BB2F46B0052970A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		002069391BB2F46B0052970A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0020693B1BB2F46B0052970A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TVgram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pushplay.net.TVgram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		0020693C1BB2F46B0052970A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TVgram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pushplay.net.TVgram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		002069261BB2F46B0052970A /* Build configuration list for PBXProject "TVgram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				002069381BB2F46B0052970A /* Debug */,
+				002069391BB2F46B0052970A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0020693A1BB2F46B0052970A /* Build configuration list for PBXNativeTarget "TVgram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0020693B1BB2F46B0052970A /* Debug */,
+				0020693C1BB2F46B0052970A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 002069231BB2F46B0052970A /* Project object */;
+}
